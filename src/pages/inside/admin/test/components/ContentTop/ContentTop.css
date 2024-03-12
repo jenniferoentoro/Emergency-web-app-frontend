@@ -1,0 +1,52 @@
+/* main content top */
+.main-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  position: sticky;
+  top: 0;
+  background-color: #ae6d68c2 ; /* Transparent background color */
+  z-index: 1000;
+  padding: 10px; /* Adjusted padding for the glassmorphism effect */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(40px); /* Adjust the blur as needed for the glass effect */
+  border-radius: 10px;
+}
+
+.white-icon {
+  color: white;
+}
+.sidebar-toggler {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.sidebar-toggler img {
+  width: 20px;
+}
+
+.content-top-title {
+  color: var(--clr-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-top-btn {
+  margin-left: 18px;
+}
+
+.content-top-btn img {
+  width: 24px;
+}
+
+.content-top-btn img:hover {
+  filter: brightness(0) invert(1);
+}
+
+.content-top-left {
+  display: flex;
+  align-items: center;
+}
+

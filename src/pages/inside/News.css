@@ -1,0 +1,104 @@
+
+.form{
+
+    position: relative;
+}
+
+.form .searcha{
+
+    position: absolute;
+    top:15px;
+    left: 18px;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan .micr{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+.news{
+    width: 160px
+}
+.news-scroll a{
+    text-decoration: none;
+    color: black;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207,23,23);
+    border-radius: 50%;
+    display: inline-block
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+border: none;
+} 
+.card:hover{
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+a {
+    color: initial;
+    text-decoration: none;
+}
+
+.text-muted i {
+    margin: 0 10px;
+}  
+.imgRound{
+    border-radius: 13px;
+}
+.notop{
+    padding-top: 0px !important;
+}
+.card-wrapper {
+    height: 80%; /* Set your desired fixed height here */
+}
+.fixed-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}  
+.nounder{
+    text-decoration: none !important;
+}
+.udnerline:hover {
+    text-decoration: underline;
+}
+.carousel img {
+    height: 300px; /* Adjust the desired height */
+    width: 100%;   /* Set the width to 100% to maintain aspect ratio */
+    object-fit: cover; /* Optional: This will make sure the image covers the entire container, cropping if necessary */
+  }

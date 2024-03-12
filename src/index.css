@@ -1,0 +1,281 @@
+@import 'ckeditor-tailwind-reset/ckeditor-tailwind-reset';
+
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.imageTable{
+  width: 4rem;
+}
+
+
+/* @layer tailwind-base, primereact, tailwind-utilities;
+
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+} */
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap'); */
+.playfair-font {
+  font-family: 'Playfair Display', serif;
+  
+}
+*{
+  font-family: 'Playfair Display', serif !important;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root,.css-1191obr-MuiPaper-root-MuiAppBar-root , .css-sghohy-MuiButtonBase-root-MuiButton-root{
+  background-color: #ae6d68 !important;
+}
+
+
+.MuiStepLabel-labelContainer span {
+  font-size: 10px;
+}
+.Mui-active, .Mui-completed{
+  color : #d08f88 !important;
+}
+.pinkColor {
+  --bs-table-bg: #ae6d68 !important;
+  /* --bs-color: white !important; */
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root, .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+  color: #a42c24 !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after{
+  color: #a42c24 !important;
+  border-bottom: #a42c24 !important;
+}
+
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before{
+  border-bottom: 1px solid #a42c24 !important;
+}
+
+.color-background ,.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: #FBF6F0 !important;
+}
+
+.cover-background {
+  background-image: url('/images/background-wave.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+}
+
+.abstract-background {
+  background-image: url('/images/abstractBg.png'); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
+  /* height: 100vh;  */
+}
+.modal-body{
+  background-color: #FBF6F0 !important;
+}
+
+.form-field{
+  position: relative;
+  margin: 32px 0;
+
+}
+
+.input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #a42c24;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  background-color: #FFFAF4;
+}
+
+/* LoginPage.css */
+.fire30 {
+  transform: rotate(15deg); 
+  transition: transform 0.3s ease; 
+}
+
+.firedefault {
+  transform: rotate(-10deg); 
+  transition: transform 0.3s ease; 
+}
+
+.fire{
+ 
+  width: 4rem;
+  margin-bottom: -45px !important;
+  margin-left: -300px;
+  z-index: 2;
+  
+}
+
+.transparent{
+  background-color: #FBF6F0 !important;
+}
+
+.firstaid2{
+  transform: rotate(-15deg); 
+  transition: transform 0.3s ease;
+}
+
+.firstaiddefault{
+  transform: rotate(10deg); 
+  transition: transform 0.3s ease;
+}
+
+.firstaid{
+  margin-top: -45px !important;
+  float: right;
+  position: 'relative';
+  z-index: 40; 
+  width: '4rem'; 
+  margin-top: 20px;
+}
+
+.ambulance2{
+  transform: rotate(23deg); 
+  transition: transform 0.3s ease;
+}
+
+.ambulancedefault{
+  transform: rotate(-14deg); 
+  transition: transform 0.3s ease;
+}
+
+.helper2{
+  transform: rotate(-18deg); 
+  transition: transform 0.3s ease;
+}
+
+.helperdefault{
+  transform: rotate(14deg); 
+  transition: transform 0.3s ease;
+}
+
+.ambulance{
+  margin-top: -40px;
+  margin-right: -40px;
+}
+.helper{
+  margin-top: -50px;
+  margin-left: -250px;
+}
+.input-text:focus + .input-label,
+.input-text:not(:placeholder-shown) + .input-label {
+  transform: translateY(-24px);
+}
+.input-text:focus{
+  outline: none;
+}
+
+.glass-red{
+  background: rgba( 164, 44, 36, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.input-label{
+  position: absolute;
+  bottom: 11px;
+  left: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #a42c24;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.emergencybutton {
+  padding: 80px 75px;
+  /* margin-left: -100p; */
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #c3130a;
+  border: none;
+   border-radius: 50%; 
+   
+  box-shadow: 0 9px #999;
+}
+
+.emergencybutton:hover {background-color: #a11d17}
+
+.emergencybutton:active {
+  background-color: #a11d17;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.uploaded-row{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #cca09d;
+}
+
+.upload-content{
+  display: flex;
+  align-items: center;
+}
+.formNews{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #a42c24;
+  height: 300px;
+  /* width: 500px; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.swal2-container {
+  z-index: 9999; 
+}
+
+/* .card{
+  background-color: aqua !important;
+} */
+
+.buttonA{
+  background-color: #ae6d68 !important;
+  color: #ffffff !important;
+  border: 1px solid #ae6d68 !important;
+}
+.buttonEdit{
+  color: #ae6d68 !important;
+}
+/* .title{
+  text-shadow: 1px 1px 2px pink !important; 
+} */

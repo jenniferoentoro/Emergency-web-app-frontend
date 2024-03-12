@@ -1,0 +1,68 @@
+.main-content {
+  background-color: #FBF6F0;
+  flex: 1;
+  padding: 8px 12px 32px 12px;
+  transition: margin-left 0.3s ease-in-out; /* Add transition for a smooth effect */
+}
+
+
+/* When the sidebar is open, set a margin to accommodate the sidebar */
+.main-content.sidebar-open {
+  margin-left: 260px;
+}
+
+/* When the sidebar is closed, set a smaller margin or no margin at all */
+.main-content.sidebar-closed {
+  margin-left: 0;
+}
+@media screen and (max-width: 1200px) {
+  .main-content {
+    margin-left: 20px; /* Adjust margin for smaller screens */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Adjust styles for sidebar-open within the media query */
+  .main-content.sidebar-open {
+    margin-left: 20px;
+  }
+
+  /* Adjust styles for sidebar-closed within the media query */
+  .main-content.sidebar-closed {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-content {
+    margin-left: 72px; /* Adjust margin for smaller screens */
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  /* Adjust styles for sidebar-open within the media query */
+  .main-content.sidebar-open {
+    margin-left: 72px;
+  }
+
+  /* Adjust styles for sidebar-closed within the media query */
+  .main-content.sidebar-closed {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-content {
+    margin-left: 0; /* Adjust margin for smallest screens */
+  }
+
+  /* Adjust styles for sidebar-open within the media query */
+  .main-content.sidebar-open {
+    margin-left: 0;
+  }
+
+  /* Adjust styles for sidebar-closed within the media query */
+  .main-content.sidebar-closed {
+    margin-left: 0;
+  }
+}
